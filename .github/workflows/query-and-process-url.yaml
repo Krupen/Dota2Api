@@ -20,7 +20,7 @@ jobs:
       run: |
         python process_data.py # or whatever command you need to run your script
 
-    - name: Publish to GitHub Pages
+    - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
