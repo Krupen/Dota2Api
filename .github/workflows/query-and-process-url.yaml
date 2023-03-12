@@ -28,11 +28,11 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests # or whatever command you need to install your dependencies
+        pip install requests 
 
     - name: Query and process data
       run: |
-        python process_data.py # or whatever command you need to run your script
+        python process_data.py 
 
     - name: Setup Pages
       uses: actions/configure-pages@v3
